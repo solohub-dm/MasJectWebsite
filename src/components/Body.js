@@ -9,14 +9,44 @@ const Body = () => {
           <h2 style={styles.name}>Maxym Striletskyi</h2>
           <p style={styles.position}>Student</p>
         </div>
-
+ </div>
   <div style={styles.card}>
         <img src={"/avatar-Sokolovska-Mariia.jpg"} alt="Mariia Sokolovska" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Mariia Sokolovska</h2>
           <p style={styles.position}>Student</p>
+      </div> 
+ </div>
+  <div style={styles.card}>
+        <img src={"/avatar_Maksym_Pobihach.jpg"} alt="Maksym Pobihach" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Maksym Pobihach</h2>
+          <p style={styles.position}>Student</p>
         </div>
       </div>  
+  <div style={styles.card}>
+        <img src={"photo_5460901478228154050_y.jpg"} alt="Yustyna Fariion" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Yustyna Fariion</h2>
+          <p style={styles.position}>Student</p>
+        </div>
+      </div>  
+  <div style={styles.card}>
+        <img src={"photo_2024-11-18_21-05-32.jpg"} alt="Bohdana Fedorchuk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Bohdana Fedorchuk</h2>
+          <p style={styles.position}>Student</p>
+        </div>
+      </div>  
+
+     <div style={styles.card}>
+        <img src={"/avatar_Dmytro_Solohub.png"} alt="Dmytro Solohub" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Dmytro Solohub</h2>
+          <p style={styles.position}>Student</p>
+        </div>
+      </div>  
+  
     </main>
   );
 };
