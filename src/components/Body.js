@@ -17,7 +17,13 @@ const Body = () => {
           <p style={styles.position}>Student</p>
         </div>
       </div>  
-
+  <div style={styles.card}>
+        <img src={"photo_5460901478228154050_y.jpg"} alt="Yustyna Fariion" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Yustyna Fariion</h2>
+          <p style={styles.position}>Student</p>
+        </div>
+      </div>  
   <div style={styles.card}>
         <img src={"photo_2024-11-18_21-05-32.jpg"} alt="Bohdana Fedorchuk" style={styles.photo} />
         <div style={styles.textContainer}>
@@ -25,8 +31,6 @@ const Body = () => {
           <p style={styles.position}>Student</p>
         </div>
       </div>  
-
-  
     </main>
   );
 };
