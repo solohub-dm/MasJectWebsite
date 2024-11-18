@@ -31,6 +31,15 @@ const Body = () => {
           <p style={styles.position}>Student</p>
         </div>
       </div>  
+
+     <div style={styles.card}>
+        <img src={"/avatar_Dmytro_Solohub.png"} alt="Dmytro Solohub" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Dmytro Solohub</h2>
+          <p style={styles.position}>Student</p>
+        </div>
+      </div>  
+  
     </main>
   );
 };
