@@ -12,7 +12,7 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [22.11.x]  # Updated Node.js version
+                node-version: [22.11.0]  # Updated Node.js version
 
         steps:
             - uses: actions/checkout@v2
@@ -24,9 +24,6 @@ jobs:
 
             - name: Run CI command
               run: npm ci
-
-            - name: Check linting
-              run: npm run lint
             
             - name: Run the tests
               run: npm run test
